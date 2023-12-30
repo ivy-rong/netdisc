@@ -1,0 +1,5 @@
+packages:
+  - netfisc-web
+  - netfisc-server
+  - docs
+  - packages/*
