@@ -4,11 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "cspell:check": "cspell \"**\""
   },
   "keywords": [
     "netdisc"
   ],
   "author": "ivy rong",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "cspell": "^8.3.0",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^18.4.3"
+  }
 }
